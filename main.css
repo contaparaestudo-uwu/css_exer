@@ -1,0 +1,243 @@
+* {
+    font-family: "Elms Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 273;
+    font-style: normal;
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+    margin: 25px;
+    color: 	#8f4347;
+    max-width: 345px;
+}
+
+body {
+    background-color: #ebece7;
+}
+
+.container ul {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.container li {
+    margin: 20px;
+}
+
+header li {
+    display: inline;
+    width: 0, auto;
+}
+
+header a {
+    text-decoration: none;
+    color:#ed9987;
+}
+
+header a:hover {
+    color:#d66b13;
+}
+
+.container {
+    width: auto;
+	margin: 0, auto;
+}
+
+.container .article {
+    display: flex;
+}
+
+.articles article {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.article article img {
+    border-radius: 10px;
+    height: 290px;
+    width: 290px;
+    margin-left: 60px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.created {
+    color:#818181;
+    font-size: x-small;
+    margin-left: 70px;
+}
+
+.paragrafo {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    max-width: 250px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.read {
+    margin-bottom: 30px;
+}
+
+#sports {
+    background-color: #9cd46e;
+}
+
+#sports h2 {
+    color:#ffffff;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#sports h3 {
+    color:#dafcdd;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+#sports p {
+    font-size: medium;
+    color:#3f6b1b
+}
+
+#sports .read {
+    text-decoration: none;
+    color:#ffffff;
+    display:block;
+    margin-left: 165px;
+    margin-top: 0px;
+    max-width: 120px;
+    padding: 10px;
+}
+
+#sports .read:hover {
+    color:#079202;
+}
+
+#economy {
+    background-color: #fcf2d6;
+}
+
+#economy h2 {
+    color: #c96852;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#economy h3 {
+    color: #c96852;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+#economy p {
+    font-size: medium;
+    color: #e69988;
+}
+
+#economy .read {
+    text-decoration: none;
+    color: #c96852;
+    display:block;
+    margin-left: 165px;
+    margin-top: 0px;
+    max-width: 120px;
+    padding: 10px;
+}
+
+#economy .read:hover {
+    color: #f3a392;
+}
+
+#technology {
+    background-color: #ebece7;
+}
+
+#technology h2 {
+    color:#756ed4;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#technology h3 {
+    color:#756ed4;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+#technology p {
+    font-size: medium;
+    color:#8a84e4
+}
+
+#technology .read {
+    text-decoration: none;
+    color:#756ed4;
+    display:block;
+    margin-left: 165px;
+    margin-top: 0px;
+    max-width: 120px;
+    padding: 10px;
+}
+
+#technology .read:hover {
+    color:#504aa3;
+}
+
+#entertainment {
+    background-color:#e2b1a6;
+}
+
+#entertainment h2 {
+    color:#8f4347;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#entertainment h3 {
+    color:#8f4347;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+#entertainment p {
+    font-size: medium;
+    color:#b6595d;
+}
+
+#entertainment .read {
+    text-decoration: none;
+    color:#814245;
+    display:block;
+    margin-left: 165px;
+    margin-top: 0px;
+    max-width: 120px;
+    padding: 10px;
+}
+
+#entertainment .read:hover {
+    color:#5a2124;
+}
